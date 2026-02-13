@@ -1,6 +1,6 @@
 # 🎮 Tic Tac Toe Game
 
---Demo link:- https://tictaetoe1.netlify.app/
+--Demo link:- https://tic-tae-toe-007.netlify.app/
 
 A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.  
 This project demonstrates DOM manipulation, event handling, and game logic implementation using pure frontend technologies.
