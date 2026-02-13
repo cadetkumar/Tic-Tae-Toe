@@ -15,18 +15,6 @@ body {
     color: white;
 }
 
-#new-btn {
-    margin-top: 30.5rem;
-    padding: 10px 25px;
-    border-radius: 30px;
-    border: none;
-    font-size: 1rem;
-    cursor: pointer;
-    background: #eeff00;
-    color: #111;
-    transition: 0.3s ease;
-    margin-left: m;
-}
 
 main {
     text-align: center;
@@ -77,6 +65,18 @@ h1 {
     transform: scale(0.95);
 }
 
+#new-btn {
+    margin-top: 10px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background: #ff416c;
+    color: white;
+    transition: all 0.3s ease;
+}
+
 #reset-btn {
     margin-top: 20px;
     padding: 10px 25px;
@@ -89,6 +89,12 @@ h1 {
     transition: all 0.3s ease;
 }
 
+#new-btn:hover {
+    background: #d3df2f;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(176, 187, 24, 0.822);
+}
+
 #reset-btn:hover {
     background: #ff4b2b;
     transform: translateY(-3px);
@@ -97,12 +103,7 @@ h1 {
 
 
 .msg-container {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 999;
-    text-align: center;
-
+   padding: 15px 15px;
 }
 
 .win {
@@ -111,36 +112,6 @@ h1 {
     font-weight: bold;
     color: #00ffcc;
     animation: textGlow 1s infinite alternate;
-}
-
-
-
-.popup {
-    background: white;
-    color: black;
-    padding: 30px 50px;
-    border-radius: 20px;
-    text-align: center;
-    animation: scaleUp 0.4s ease-in-out;
-    box-shadow: 0 0 20px #00ffcc 0 0 40px #00ffcc 0 0 80px #00ffcc ;
-
-
-}
-
-.popup button {
-    margin-top: 15px;
-    padding: 8px 20px;
-    border: none;
-    border-radius: 20px;
-    background: #4CAF50;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.popup button:hover {
-    background: #45a049;
-    transform: scale(1.05);
 }
 
 
@@ -168,3 +139,4 @@ h1 {
                      0 0 40px #00ffcc;
     }
 }
+
