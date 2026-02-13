@@ -15,9 +15,9 @@ body {
     color: white;
 }
 
-
 main {
     text-align: center;
+    
 }
 
 h1 {
@@ -61,21 +61,22 @@ h1 {
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
 
-.box:active {
+.box:active {   
     transform: scale(0.95);
 }
-
-#new-btn {
+#new-btn{
     margin-top: 10px;
     padding: 10px 25px;
     border-radius: 30px;
     border: none;
     cursor: pointer;
     font-size: 1rem;
-    background: #ff416c;
+    background: #b9ca21;
     color: white;
     transition: all 0.3s ease;
 }
+
+
 
 #reset-btn {
     margin-top: 20px;
@@ -95,6 +96,7 @@ h1 {
     box-shadow: 0 10px 20px rgba(176, 187, 24, 0.822);
 }
 
+
 #reset-btn:hover {
     background: #ff4b2b;
     transform: translateY(-3px);
@@ -103,17 +105,16 @@ h1 {
 
 
 .msg-container {
-   padding: 15px 15px;
+    padding: 15px 15px;
 }
 
 .win {
-    margin-top: 20px;
+    margin-top: 1px;
     font-size: 2.5rem;
     font-weight: bold;
     color: #00ffcc;
     animation: textGlow 1s infinite alternate;
 }
-
 
 .hide {
     display: none;
@@ -139,4 +140,3 @@ h1 {
                      0 0 40px #00ffcc;
     }
 }
-
